@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color:white;
+    /* border: 1px solid; */
+
+}
+.ip{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
