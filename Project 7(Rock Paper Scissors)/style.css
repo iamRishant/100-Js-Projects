@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    /* background-color: #FFB0B0; */
+    
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #09182A;
+    height: 10vmin;
+    /* padding:2%; */
+}
+h1{
+    font-size: 5vmin;
+}
+.box{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 2%;
+    gap: 5vmin;
+    padding: 10vmin 5vmin;
+    /* flex-direction: column; */
+}
+.circles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vmin;
+    width: 30vmin;
+    border-radius: 100%;
+
+
+}
+img{
+    height: 17vmin;
+    width: 17vmin;
+}
+#rock{
+    background-color: #ED7798;
+    /* border: 1px solid black; */
+}
+#paper{
+    background-color: #BA82D6;
+    /* border: 1px solid black; */
+}
+#scissor{
+    background-color: #72A2FE;
+    /* border: 1px solid black; */
+}
+.circle:hover{
+    border: 3px solid black
+}
+
+.points{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+    /* height: 20vmin; */
+}
+.element{
+    text-align: center;
+}
+.element span{
+    font-size: 7vmin;
+    font-weight: 500;
+}
+.element p{
+    font-size: 4vmin;
+    font-weight: 400;
+}
+.message{
+    /* height: 15vmin; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:max-content;
+    border-radius: 5vmin;
+    background-color: black;
+    text-align: center;
+    /* background-color: red; */
+    margin: 5vmin auto;
+    padding: 1% 4%;
+    
+}
+.message p{
+    font-size: 4vmin;
+    color: white;
+    display: inline;
+
+}
+.winner{
+    background-color: green;
+}
+.looser{
+    background-color: red;
+}
+.draw{
+    background-color: black;
+}
