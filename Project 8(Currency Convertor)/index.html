@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currency Convertor</title>
+    <title>Currency Converter</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
     rel="stylesheet"/>
@@ -11,7 +11,7 @@
 <body>
     <div id="main">
         <div class="container">
-            <h1>Currency Convertor</h1>
+            <h1>Currency Converter</h1>
             <form action="">
                 <!-- <p>Enter Amount</p> -->
                 <input type="number" value="" placeholder="Enter Amount">
@@ -21,10 +21,10 @@
                         <p>From</p>
                         <img src="https://flagsapi.com/US/shiny/64.png">
                         <select name="from" id="">
-                            <option value="">USD</option>
+                            <!-- <option value="">USD</option>
                             <option value="">INR</option>
                             <option value="">EUR</option>
-                            <option value="">AUD</option>
+                            <option value="">AUD</option> -->
                         </select>
                     </div>
 
@@ -33,16 +33,16 @@
                     <div class="to">
                         <p>To</p>
                         <img src="https://flagsapi.com/IN/shiny/64.png">
-                        <select name="from" id="">
-                            <option value="">USD</option>
+                        <select name="to" id="">
+                            <!-- <option value="">USD</option>
                             <option selected value="">INR</option>
                             <option value="">EUR</option>
-                            <option value="">AUD</option>
+                            <option value="">AUD</option> -->
                         </select>
                     </div>
                 </div>
                 <div class="result">
-                    <p>Value: <span>8000</span></p>
+                    <p>Value: <span id="res"></span></p>
                 </div>
                 <button>Convert</button>
             </form>
@@ -51,6 +51,7 @@
 
 
 
+    <script src="codes.js"></script>
     <script src="index.js"></script>
 </body>
 </html>

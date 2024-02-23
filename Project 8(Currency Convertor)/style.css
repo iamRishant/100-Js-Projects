@@ -68,11 +68,14 @@ button{
     border: none;
     border-radius: 5vmin;
     box-shadow: 2px 2px;
+    transition: 0.2s ease-in-out;
+    font-weight: 500;
 }
 select{
     background-color: whitesmoke;
     padding: 1vmin 2vmin;
     font-weight: 700;
+    border-radius: 4vmin;
 }
 p{
     font-size: 4vmin;
@@ -80,4 +83,10 @@ p{
 }
 h1{
     font-size: 6vmin;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px rgb(255, 255, 255);
+    cursor: pointer;
 }
