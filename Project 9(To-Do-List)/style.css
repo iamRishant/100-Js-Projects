@@ -13,6 +13,8 @@ body{
 .main{
     height: 100vh;
     width: 100%;
+    /* overflow: hidden; */
+    overflow-y: auto;
 }
 .todo{
     display: flex;
@@ -21,7 +23,7 @@ body{
     justify-content: center;
     border: 2px solid black;
     margin-top: 15vmin;
-    width: 70vmin;
+    width: 90vmin;
     margin:  15vmin auto ;
     padding-bottom: 5vmin;
     background-color: white;
@@ -65,4 +67,47 @@ img{
 }
 h1{
     font-size: 6vmin;
+}
+ul li{
+    list-style: none;
+    font-size: 5vmin;
+    user-select: none;
+    cursor: pointer;
+    padding: 12px 50px 12px 50px;
+    /* padding: 1vmin 8.2vmin 1vmin 8.2vmin; */
+    position: relative;
+
+}
+ul li::before{
+    content: '';
+    position: absolute;
+    height :5vmin;
+    width: 5vmin;
+    border-radius: 50%;
+    background-image: url(unchecked.png);
+    background-size: cover;
+    background-position: center;
+    top: 3.3vmin;
+    left: 1vmin;
+
+}
+ul li.checked{
+    color: #555;
+    text-decoration: line-through;
+}
+ul li.checked::before{
+    background-image: url(checked.png);
+}
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 2vmin;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+ul li span:hover{
+    background: #edeef0;
 }
