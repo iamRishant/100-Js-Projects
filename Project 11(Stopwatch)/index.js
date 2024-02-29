@@ -30,6 +30,7 @@ function updateTimer(){
     // document.getElementById("mili").textContent=mil;
 
     timer.innerHTML=`${h} : ${m} : ${s} : ${mil}`;
+    document.querySelector("#start").disabled=true;
 
 }
 document.querySelector("#reset").addEventListener("click",()=>{
@@ -39,9 +40,11 @@ document.querySelector("#reset").addEventListener("click",()=>{
     minutes=0;
     hours=0;
     timer.innerHTML=`00 : 00 : 00 : 000`;
+    document.querySelector("#start").disabled=false;
     
 })
 
 document.querySelector("#stop").addEventListener("click",()=>{
     clearInterval(interval);
+    document.querySelector("#start").disabled=false;
 })
