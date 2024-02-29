@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #747264;
+}
+.container{
+    background-color: #E0CCBE;
+    min-width: 230px;
+    /* padding: 8vmin 14vmin; */
+    border-radius: 3vmin;
+    padding: 5vmin;
+}
+.container h1{
+    padding: 2vmin 5vmin;
+    text-align: center;
+    border-bottom: 1px solid black;
+    font-size: 10vmin;
+}
+.container .guess{
+    text-transform: uppercase;
+    font-size: 7vmin;
+    letter-spacing: 3vmin;
+    text-align: center;
+    padding: 0 5vmin;
+}
+.hintc{
+    margin-left: 2vmin;
+    font-size: 3vmin;
+}
+.timec{
+    margin-left: 2vmin;
+    font-size: 3vmin;
+
+    margin-bottom: 4vmin;
+}
+#time{
+    font-weight: 500;
+}
+input{
+    width: 100%;
+    padding: 2vmin 0;
+    text-align: center;
+    font-size: 3vmin;
+    outline: none;
+    border: none;
+}
+.buttons{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 2vmin; */
+    /* width: 100%; */
+    margin: 3vmin 0;
+
+
+}
+button{
+    border: none;
+    padding: 2vmin;
+    font-size: 3vmin;
+    width: calc(100%/2 - 1vmin);
+    cursor: pointer; 
+    border-radius: 10px;
+}
+#refresh{
+    background-color: #EEEDEB;
+}
+#verify{
+    background-color: #747264;
+    color: white;
+}
