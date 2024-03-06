@@ -91,4 +91,22 @@ let words = [
         word: "library",
         hint: "Place containing collection of books"
     },
+    {
+        word: "house",
+        hint: "A place where people live"
+    },
+    {
+        word: "arise",
+        hint: "To begin to occur or to exist "
+    },
+    {
+        word: "conserve",
+        hint: "To avoid wasting something "
+    },
+    {
+        word: "venule",
+        hint: "A very small vein"
+    },
+    
+
 ]
