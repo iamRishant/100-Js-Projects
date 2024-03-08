@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    /* color: #fff; */
+}
+.main{
+    display: grid;
+    border: 2px solid black;
+    /* it will define number of columns of respective width  */
+    grid-template-columns: 20vmin 30vmin 40vmin;
+    grid-template-rows: 10vmin 20vmin;
+    gap: 2vmin;
+}
+.item{
+    border: 1px solid red;
+}
+.item1{
+    /* i am assigning the value of row and col line1/line2 manuallly  */
+    /* if we assing two cell same row and col it will overlap */
+    grid-row: 1/2;
+    /* or we can write grid-row-start and grid-row-end */
+    grid-column:1/2;
+}
+/* .item2{
+    grid-row: 1/2;
+    grid-column:1/2;
+} */
