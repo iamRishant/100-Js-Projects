@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="game-details">
+            <span id="score">Score: 0</span>
+            <span id="High">High Score: 0</span>
+        </div>
+        <div class="game-board">
+        </div>
+        <div class="controls">
+            <i data-key="ArrowUp" class="ri-arrow-up-line"></i>
+            <i data-key="ArrowDown" class="ri-arrow-down-line"></i>
+            <i data-key="ArrowLeft" class="ri-arrow-left-line"></i>
+            <i data-key="ArrowRight" class="ri-arrow-right-line"></i>
+        </div>
+    </div>
+
+
+ <!-- defer ka mtlb ki pehle html load ho jae then script apna kaam shuru krega by side by side download hota rhe it is done to ensure html loading time js interfere na kre -->
+    <script src="index.js" defer></script>
+</body>
+</html>
