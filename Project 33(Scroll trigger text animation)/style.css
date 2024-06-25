@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: "Poppins", sans-serif; */
+    box-sizing: border-box;
+    font-family: "Eater", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: #AFD198;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#page1 h1{
+    font-size: 3vw;
+}
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    padding: 2vw;
+}
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: #DBA979;
+}
+#page2 h1{
+    text-align: center;
+    font-size: 3.2vw;
+    line-height: 4vw;
+}

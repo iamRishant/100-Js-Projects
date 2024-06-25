@@ -56,7 +56,7 @@ class Enemy{
         // this.angle+=this.angleSpeed;
 
         this.x=canvas.width/2*Math.sin(this.angle * Math.PI/90) + canvas.width/2-this.width/2;//to center them horizotally
-        this.y=canvas.height/2*Math.cos(this.angle * Math.PI/360) + canvas.height/2-this.height/2;
+        this.y=canvas.height/2*Math.cos(this.angle * Math.PI/270) + canvas.height/2-this.height/2;
         this.angle+=this.angleSpeed
         //here math.sin creating periodically horizal movment and cos does that for vertical movement together (since hypoteneus dont change ) the form circular movement 
         //math.pi ke niche ka value change krenge and sin cos change krenge to diffrent pattern milega
